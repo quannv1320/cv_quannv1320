@@ -3,21 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
-
-.header__main{
+.header__main--banner{
+    background-color: #64abbd;
+    height: 200px;
+    position: relative;
+}
+.header__main--banner .info{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 250px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+.header__main--banner .info .phone{
+    width: 150px;
+}
+.header__main--banner .name{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    position: absolute;
+    right: 285px;
+    top: 100px;
+}
+.header__main--banner .avatar{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.header__main--banner .avatar img{
+    border-radius: 180px;
+}
 
-}
-h1{
-    color: blueviolet;
-}
-h2{
-    color: blueviolet;
+/* ============================MAIN============================== */
+.target{
+    background-color: rgb(240, 108, 85);
+    height: 1000px;
 }
