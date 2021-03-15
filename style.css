@@ -5,46 +5,72 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url('./images/sky.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
-.container{
+.container-fluid{
     max-width: 1024px;
-    margin: 0px auto;
+    margin: 50px auto;
+
 }
-/* ===============================HEADER============================== */
-.header__main--banner{
-    background-color: #64abbd;
-    height: 200px;
+.content{
+    display: flex;
+}
+.left__content{
+    width: 30%;
+    background-color: #e5f1ff;
     position: relative;
 }
-.header__main--banner .info{
-    display: flex;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: white;
+.left__content .avatar{
+    text-align: center;
+    padding-top: 20px;
 }
-.header__main--banner .info .phone{
-    width: 150px;
-}
-.header__main--banner .name{
-    color: white;
-    letter-spacing: 2px;
-    font-size: 25px;
-    position: absolute;
-    right: 285px;
-    top: 100px;
-}
-.header__main--banner .avatar{
-    position: absolute;
-    top: 70px;
-    left: 50px;
-}
-.header__main--banner .avatar img{
+.left__content .avatar img{
     border-radius: 180px;
+
+}
+.about{
+    padding: 30px 0 57px 20px;
+}
+.about .table td{
+    padding: 5px;
+}
+.education{
+    padding: 30px 0 20px 20px;
+}
+.education .row{
+    padding: 5px 0;
 }
 
-/* ====================================MAIN======================================== */
-.target{
-    background-color: rgb(240, 108, 85);
-    height: 1000px;
+/* ============================================================================================ */
+
+.right__content{
+    width: 70%;
+    background: #fff;
+}
+.container{
+    margin: 0 50px;
+}
+.full__name{
+    padding: 80px 0 72px;
+}
+.full__name h1{
+    font-size: 40px;
+}
+.full__name p{
+    font-size: 20px;
+}
+.target .row{
+    padding-bottom: 20px;
+}
+
+.skills .row{
+    margin-bottom: 30px;
+}
+.skills .row h3{
+    padding-bottom: 15px;
+}
+.skills .row p{
+    padding-bottom: 5px;
 }
