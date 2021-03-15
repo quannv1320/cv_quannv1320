@@ -46,7 +46,7 @@ body{
 /* ============================================================================================ */
 
 .right__content{
-    width: 70%;
+    /* width: 70%; */
     background: #fff;
 }
 .container{
@@ -73,4 +73,27 @@ body{
 }
 .skills .row p{
     padding-bottom: 5px;
+}
+
+
+
+/* Responsive */
+
+/* Mobile: width < 740px*/
+@media only screen and (max-width : 739px) {
+    .content{
+        flex-direction: column;
+    }
+    .left__content{
+        width: 100%;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width : 740px) and (max-width : 1023px) {
+
+}
+
+/* PC: width >=1024px */
+@media only screen and (min-width : 1024px) {
+    
 }
