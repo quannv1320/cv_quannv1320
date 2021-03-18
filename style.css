@@ -52,11 +52,13 @@ body{
 .container{
     margin: 0 50px;
 }
+
 .full__name{
     padding: 80px 0 72px;
 }
 .full__name h1{
     font-size: 40px;
+    font-weight: 900;
 }
 .full__name p{
     font-size: 20px;
